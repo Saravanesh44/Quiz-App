@@ -1,0 +1,121 @@
+body{
+  min-height: 83vh;
+  background-image:url("img.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  margin: auto;
+  margin-top: 100px;
+  padding: 8px;
+  border: 1px black solid;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  border-radius: 9px;
+}
+
+.login{
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  margin: 0px 3px;
+  font-size: 19px;
+  color: white;
+}
+
+.username,.password{
+  height: 30px;
+  width: 300px;
+  display: block;
+  margin: 5px 0px 13px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 13px;
+  border: 1px black solid;
+}
+
+.username:focus,.password:focus{
+  outline: none;
+}
+
+.button{
+  height: 45px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+button{
+  height: 40px;
+  background-color: 
+  rgb(66, 153, 235);
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(76, 140, 230);
+  cursor: pointer;
+  transition: 0.05s;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:active{
+  background-color: rgb(25, 114, 239);
+  cursor: pointer;
+  transition: 0.1s;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.Checkbox{
+  margin-left: -1px;
+}
+
+.sub{
+  margin-top: 15px;
+  display: flex;
+  font-size: 18px;
+  color: white;
+}
+
+.forgot{
+  padding-left: 30%;
+  color: rgb(2, 143, 231);
+  text-decoration: none;
+}
+
+.forgot:active,.forgot:hover{
+  text-decoration:underline;
+}
+
+.base{
+  display: flex;
+  margin: 7px 0;
+  font-size: 17px;
+  justify-content: center;
+  color: white;
+}
+
+.signup{
+  margin-left: 3px;
+  text-decoration: none;
+  color: rgb(2, 143, 231);
+}
+
+.signup:active,.signup:hover{
+  text-decoration: underline;
+}
+
+.forgot:active,.signup:active{
+  color: rgb(17, 91, 202);
+}

@@ -1,0 +1,106 @@
+body{
+  min-height:83vh;
+  background-image:url("img.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  margin: auto;
+  margin-top: 100px;
+  border: 1px black solid;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  border-radius: 9px;
+  padding: 7px;
+  padding-bottom: 15px;
+  
+}
+
+h2{
+  font-size: 30px;
+  margin: 15px;
+  color: white;
+}
+
+.sub{
+  font-size: 18px;
+  margin: 16px 2px;
+  text-align: start;
+  margin-bottom:20px
+}
+
+p{
+  margin-top: 15px;
+  margin-bottom: 6px;
+  margin-left: 2px;
+  color: white;
+}
+
+.username,.password,.email{
+  width: 330px;
+  height: 28px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+.username:focus,.password:focus,.email:focus{
+  outline: none;
+}
+
+.button{
+  height: 35px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+button{
+  height: 20px;
+  background-color:  rgb(66, 153, 235);
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  color: white;
+
+}
+
+button:hover{
+  background-color: rgb(76, 140, 230);
+  cursor: pointer;
+  transition: 0.05s;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:active{
+  background-color: rgb(25, 114, 239);
+  cursor: pointer;
+  transition: 0.1s;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+  width: 195px;
+  height: 20px;
+}
+
+.button:active{
+  height: 33px;
+}
+
+
+a{
+  margin-top: 5px;
+  color: rgb(2, 143, 231);
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+a:hover,a:active{
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(17, 91, 202);
+}

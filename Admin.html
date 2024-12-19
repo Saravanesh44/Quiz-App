@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Question</title>
+  </head>
+  <body class="body"></body>
+ 
+    <form id="Quiz">
+      
+      <div class="QnPg">
+
+        <div class="Qn">
+          Enter Question:
+          <input id="AdmQn" type="text" required>
+        </div><br><br>
+  
+        
+        <div class="choices" id="Choice">
+         
+          <label for="Choice1">Option 1:</label>
+          <input id="Choice1" required type="text"><br><br>
+          
+          <label for="Choice2">Option 2:</label> 
+          <input id="Choice2" type="text" required><br><br>
+
+          <label for="Choice3">Option 3:</label>
+          <input id="Choice3" type="text" required><br><br>
+          
+          <label for="Choice4">Option 4:</label>
+          <input id="Choice4" type="text" required><br><br>
+          <label for="Answer">Enter Correct Option</label>
+          <input id="Ans" type="number" min="1" max="4" required> <br><br>
+        </div>
+        <button type="submit" id="Add">Add Question</button>
+        <button id="Submit">Submit</button><br>
+        <a href="View.html">View</a>
+      </form>
+      </div> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script> 
+      
+      <script type="module" src="Admin.js" defer></script>     
+  </body>
+</html>
